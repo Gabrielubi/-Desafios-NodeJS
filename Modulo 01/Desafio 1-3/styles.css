@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&display=swap");
+
+body {
+  margin: 0 0 0 0;
+  padding: 0;
+  background-color: #0a2ff1;
+}
+
+.contenedor-1 {
+  width: 100%;
+  height: 12rem;
+  background-color: #ffffff;
+  color: #0a2ff1;
+  text-align: center;
+  margin: 0 0 -12rem 0;
+  padding: 0 0 0 0;
+}
+
+.contenedor-2 {
+  width: 100%;
+  height: 19rem;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+}
+
+.contenedor-3 {
+  width: 100%;
+  height: 30rem;
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+  padding: 5rem 0 0 0;
+  margin: -4rem 0 0 0;
+}
+
+.contenedor-4 {
+  width: 100%;
+  height: 6rem;
+  background-color: #ffffff;
+  color: #0a2ff1;
+  text-align: center;
+}
+
+.contenedor-5 {
+  width: 100%;
+  height: 10rem;
+  background-color: #ffffff;
+  color: #0a2ff1;
+  text-align: center;
+  padding: 1rem 0 3rem 0;
+  margin: 0 0 5rem 0;
+}
+
+strong {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 48px;
+}
+
+span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 163px;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 197px;
+}
+
+.fecha {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 67px;
+}
+
+.despedida {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 59px;
+}
+
+.porcentaje {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 60px;
+  background-color: #000000;
+  color: #ffffff;
+}
