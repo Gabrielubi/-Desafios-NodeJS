@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* NAV */
+nav {
+  width: 100%;
+  margin: 50px 30px;
+  display: flex;
+  align-items: center;
+}
+
+a {
+  font-size: 20px;
+  color: #04146c;
+  font-weight: 400;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.activo {
+  font-weight: 700;
+}
+
+#logo {
+  width: 8%;
+}
+
+/* MAIN */
+main {
+  margin: 0 40px;
+}
+
+h2 {
+  font-weight: 400;
+  color: #04146c;
+  font-size: 34px;
+}
+
+/* FORM */
+form {
+  font-size: 30px;
+  display: block;
+  color: #04146c;
+}
+
+textarea {
+  height: 100px;
+  width: 500px;
+  display: block;
+}
+
+p {
+  display: block;
+}
+
+label {
+  font-weight: 700;
+  margin-bottom: 15px;
+  display: block;
+}
+
+input {
+  font-size: 30px;
+  display: block;
+  width: 500px;
+  height: 50px;
+  color: #04146c;
+  display: inline;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+span {
+  color: red;
+}
+
+/* BOTONES */
+#reset {
+  width: 150px;
+  background-color: #f98500;
+  border: none;
+  margin-right: 15px;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+#enviar {
+  width: 150px;
+  background-color: #2c00cc;
+  border: none;
+  border-radius: 10px;
+  color: #ffffff;
+}
