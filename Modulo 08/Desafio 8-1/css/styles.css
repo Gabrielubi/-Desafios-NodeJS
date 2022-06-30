@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;900&display=swap");
+
+body {
+  font-family: "Mulish", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 75px;
+  font-weight: 900;
+  color: #0a3ff1;
+}
+
+p {
+  color: #04146c;
+  text-align: justify;
+}
+
+#hashtag {
+  color: #0a3ff1;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  grid-template-rows: repeat(2, 250px);
+  grid-gap: 20px;
+  grid-template-areas:
+    "area1 area2 area3"
+    "area1 area4 area4";
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+#chalten {
+  grid-area: area1;
+}
+#cataratas {
+  grid-area: area2;
+}
+
+#colores {
+  grid-area: area3;
+}
+
+#glaciar {
+  grid-area: area4;
+}
